@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    background-color: #111111;
+    color: #dedede;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.profileImage {
+    border-radius: 50%;
+    width: 125px;
+}
+
+.profileName {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.profileName a {
+    color: #31cb8e;
+    text-decoration: none;
+    text-underline-offset: 6px;
+    text-decoration-color: #31cb8e;
+}
+
+.profileName a:hover {
+    text-decoration: underline;
+}
+
+.profileDomicile {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.studentDevscale {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.studentDevscale a {
+    color: #31cb8e;
+    text-decoration: none;
+    text-underline-offset: 6px;
+    text-decoration-color: #31cb8e;
+}
+
+.studentDevscale a:hover {
+    text-decoration: underline;
+}
+
+.link {
+    display: flex;
+    max-width: 440px;
+    width: 100%;
+    height: 50px;
+    letter-spacing: 0.03rem;
+    margin-bottom: 20px;
+    position: relative;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    color: #dedede;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    background-color: #256d50;
+    border-color: #256d50;
+    transform: scale(1.1);
+}
+
+.linkIcon {
+    position: absolute;
+    width: 36px;
+    left: 10px;
+}
+
+.writer {
+    font-size: 16px;
+    font-weight: 600;
+}
